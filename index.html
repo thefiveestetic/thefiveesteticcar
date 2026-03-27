@@ -3,744 +3,154 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="The Five Estetic Car - Especialistas em lavagem, recuperação e renovação de carros. Serviços premium com qualidade garantida." />
-  <title>The Five Estetic Car | Lavagem & Renovação de Carros</title>
+  <meta name="description" content="The Five Estetic Car - Especialistas em lavagem detalhada e estética automotiva em Santo André. Serviços premium com qualidade garantida." />
+  <title>The Five Estetic Car | Estética Automotiva Premium em Santo André</title>
 
-  <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Orbitron:wght@700;900&display=swap" rel="stylesheet" />
 
-  <!-- Font Awesome -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css" />
 
-  <!-- AOS Animation -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" />
 
-  <!-- Custom CSS -->
-  <link rel="stylesheet" href="/style.css" />
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
-  <!-- ===== HEADER / NAVBAR ===== -->
   <header class="header" id="header">
     <nav class="navbar container">
       <div class="nav-logo">
         <i class="fas fa-car-wash logo-icon"></i>
-        <span class="logo-text">The Five<span class="logo-accent">Stetic Car</span></span>
+        <span class="logo-text">The Five<span class="logo-accent"> Estetic Car</span></span>
       </div>
       <ul class="nav-links" id="navLinks">
         <li><a href="#inicio" class="nav-link active">Início</a></li>
         <li><a href="#servicos" class="nav-link">Serviços</a></li>
         <li><a href="#diferenciais" class="nav-link">Diferenciais</a></li>
         <li><a href="#planos" class="nav-link">Planos</a></li>
-        <li><a href="#galeria" class="nav-link">Galeria</a></li>
-        <li><a href="#depoimentos" class="nav-link">Depoimentos</a></li>
         <li><a href="#contato" class="nav-link">Contato</a></li>
       </ul>
-      <a href="#contato" class="btn btn-primary nav-cta">Agendar Agora</a>
+      <a href="https://wa.me/5511999998888" class="btn btn-primary nav-cta" target="_blank">Agendar Agora</a>
       <button class="hamburger" id="hamburger" aria-label="Menu">
         <span></span><span></span><span></span>
       </button>
     </nav>
   </header>
 
-  <!-- ===== HERO SECTION ===== -->
   <section class="hero" id="inicio">
     <div class="hero-overlay"></div>
     <div class="hero-particles" id="heroParticles"></div>
     <div class="container hero-content">
       <div class="hero-badge" data-aos="fade-down">
-        <i class="fas fa-star"></i> Número 1 em Qualidade
+        <i class="fas fa-star"></i> Estética Automotiva em Santo André
       </div>
       <h1 class="hero-title" data-aos="fade-up" data-aos-delay="100">
-        Seu Carro Merece o<br />
-        <span class="hero-highlight">Melhor Cuidado</span>
+        Seu Veículo com o<br />
+        <span class="hero-highlight">Brilho de um Zero Km</span>
       </h1>
       <p class="hero-subtitle" data-aos="fade-up" data-aos-delay="200">
-        Lavagem completa, recuperação de pintura, polimento, cristalização e muito mais.<br />
-        Deixe seu veículo como novo com quem entende de carro.
+        Lavagem detalhada, polimento técnico e vitrificação.<br />
+        Cuidado profissional para quem é apaixonado por carros no ABC.
       </p>
       <div class="hero-buttons" data-aos="fade-up" data-aos-delay="300">
-        <a href="#contato" class="btn btn-primary btn-lg">
-          <i class="fas fa-calendar-check"></i> Agendar Serviço
+        <a href="https://wa.me/5511999998888" class="btn btn-primary btn-lg" target="_blank">
+          <i class="fab fa-whatsapp"></i> Orçamento via WhatsApp
         </a>
         <a href="#servicos" class="btn btn-outline btn-lg">
-          <i class="fas fa-play-circle"></i> Nossos Serviços
+          <i class="fas fa-list"></i> Ver Serviços
         </a>
       </div>
       <div class="hero-stats" data-aos="fade-up" data-aos-delay="400">
         <div class="stat-item">
-          <span class="stat-number" data-target="5000">0</span><span class="stat-suffix">+</span>
-          <span class="stat-label">Clientes Atendidos</span>
+          <span class="stat-number" data-target="1000">0</span><span class="stat-suffix">+</span>
+          <span class="stat-label">Carros Renovados</span>
         </div>
         <div class="stat-divider"></div>
         <div class="stat-item">
-          <span class="stat-number" data-target="8">0</span><span class="stat-suffix">+</span>
-          <span class="stat-label">Anos de Experiência</span>
+          <span class="stat-number" data-target="100">0</span><span class="stat-suffix">%</span>
+          <span class="stat-label">Qualidade Premium</span>
         </div>
-        <div class="stat-divider"></div>
-        <div class="stat-item">
-          <span class="stat-number" data-target="98">0</span><span class="stat-suffix">%</span>
-          <span class="stat-label">Satisfação</span>
-        </div>
-      </div>
-    </div>
-    <div class="hero-scroll-indicator">
-      <span>Role para ver mais</span>
-      <i class="fas fa-chevron-down bounce"></i>
-    </div>
-  </section>
-
-  <!-- ===== FAIXA DE SERVIÇOS RÁPIDOS ===== -->
-  <section class="quick-services">
-    <div class="container quick-services-grid">
-      <div class="quick-item" data-aos="zoom-in" data-aos-delay="0">
-        <i class="fas fa-soap"></i>
-        <span>Lavagem Completa</span>
-      </div>
-      <div class="quick-item" data-aos="zoom-in" data-aos-delay="100">
-        <i class="fas fa-magic"></i>
-        <span>Polimento</span>
-      </div>
-      <div class="quick-item" data-aos="zoom-in" data-aos-delay="200">
-        <i class="fas fa-shield-alt"></i>
-        <span>Cristalização</span>
-      </div>
-      <div class="quick-item" data-aos="zoom-in" data-aos-delay="300">
-        <i class="fas fa-spray-can"></i>
-        <span>Vitrificação</span>
-      </div>
-      <div class="quick-item" data-aos="zoom-in" data-aos-delay="400">
-        <i class="fas fa-couch"></i>
-        <span>Higienização Interna</span>
-      </div>
-      <div class="quick-item" data-aos="zoom-in" data-aos-delay="500">
-        <i class="fas fa-paint-roller"></i>
-        <span>Revitalização</span>
       </div>
     </div>
   </section>
 
-  <!-- ===== SERVIÇOS ===== -->
   <section class="services" id="servicos">
     <div class="container">
       <div class="section-header" data-aos="fade-up">
         <span class="section-tag">O que fazemos</span>
-        <h2 class="section-title">Nossos Serviços <span class="accent">Especializados</span></h2>
-        <p class="section-subtitle">Tratamentos profissionais para deixar seu veículo impecável, protegido e valorizado.</p>
+        <h2 class="section-title">Nossos Serviços <span class="accent">Especiais</span></h2>
       </div>
 
       <div class="services-grid">
-
-        <div class="service-card" data-aos="fade-up" data-aos-delay="0">
-          <div class="service-icon-wrap">
-            <i class="fas fa-soap"></i>
-          </div>
-          <h3>Lavagem Completa</h3>
-          <p>Lavagem detalhada externa e interna com produtos premium que protegem a pintura e eliminam sujeiras profundas.</p>
-          <ul class="service-list">
-            <li><i class="fas fa-check"></i> Lavagem externa a pressão</li>
-            <li><i class="fas fa-check"></i> Aspiração interna</li>
-            <li><i class="fas fa-check"></i> Limpeza de vidros</li>
-            <li><i class="fas fa-check"></i> Pretinho de pneus</li>
-          </ul>
-          <a href="#contato" class="btn btn-service">Solicitar Orçamento</a>
+        <div class="service-card" data-aos="fade-up">
+          <i class="fas fa-soap"></i>
+          <h3>Lavagem Detalhada</h3>
+          <p>Limpeza minuciosa de cada canto do seu veículo, usando produtos que não agridem a pintura.</p>
         </div>
-
         <div class="service-card featured" data-aos="fade-up" data-aos-delay="100">
-          <div class="service-badge-popular">Mais Pedido</div>
-          <div class="service-icon-wrap">
-            <i class="fas fa-magic"></i>
-          </div>
-          <h3>Polimento & Lustro</h3>
-          <p>Eliminamos arranhões superficiais, oxidação e opacidade, devolvendo o brilho original à pintura do seu carro.</p>
-          <ul class="service-list">
-            <li><i class="fas fa-check"></i> Polimento de 1, 2 ou 3 etapas</li>
-            <li><i class="fas fa-check"></i> Remoção de arranhões leves</li>
-            <li><i class="fas fa-check"></i> Correção de pintura</li>
-            <li><i class="fas fa-check"></i> Acabamento espelhado</li>
-          </ul>
-          <a href="#contato" class="btn btn-primary">Solicitar Orçamento</a>
+          <i class="fas fa-magic"></i>
+          <h3>Polimento & Brilho</h3>
+          <p>Remoção de riscos e restauração do brilho espelhado com técnicas avançadas.</p>
         </div>
-
         <div class="service-card" data-aos="fade-up" data-aos-delay="200">
-          <div class="service-icon-wrap">
-            <i class="fas fa-shield-alt"></i>
-          </div>
-          <h3>Cristalização</h3>
-          <p>Proteja a pintura com uma camada cristalizada que repele água, poeira e raios UV por muito mais tempo.</p>
-          <ul class="service-list">
-            <li><i class="fas fa-check"></i> Proteção UV avançada</li>
-            <li><i class="fas fa-check"></i> Efeito hidrofóbico</li>
-            <li><i class="fas fa-check"></i> Durabilidade de 6 a 12 meses</li>
-            <li><i class="fas fa-check"></i> Brilho intenso garantido</li>
-          </ul>
-          <a href="#contato" class="btn btn-service">Solicitar Orçamento</a>
-        </div>
-
-        <div class="service-card" data-aos="fade-up" data-aos-delay="300">
-          <div class="service-icon-wrap">
-            <i class="fas fa-gem"></i>
-          </div>
-          <h3>Vitrificação de Pintura</h3>
-          <p>Proteção de alto nível com nano cerâmica que cria uma camada dura sobre a pintura, resistente a riscos e agentes químicos.</p>
-          <ul class="service-list">
-            <li><i class="fas fa-check"></i> Proteção cerâmica nano</li>
-            <li><i class="fas fa-check"></i> Durabilidade de 2 a 5 anos</li>
-            <li><i class="fas fa-check"></i> Resistência a químicos</li>
-            <li><i class="fas fa-check"></i> Facilidade de limpeza</li>
-          </ul>
-          <a href="#contato" class="btn btn-service">Solicitar Orçamento</a>
-        </div>
-
-        <div class="service-card" data-aos="fade-up" data-aos-delay="400">
-          <div class="service-icon-wrap">
-            <i class="fas fa-couch"></i>
-          </div>
-          <h3>Higienização Interna</h3>
-          <p>Limpeza profunda e sanitização do interior do seu veículo, eliminando bactérias, ácaros, fungos e mau cheiro.</p>
-          <ul class="service-list">
-            <li><i class="fas fa-check"></i> Higienização do ar-condicionado</li>
-            <li><i class="fas fa-check"></i> Limpeza de bancos e teto</li>
-            <li><i class="fas fa-check"></i> Eliminação de odores</li>
-            <li><i class="fas fa-check"></i> Sanitização completa</li>
-          </ul>
-          <a href="#contato" class="btn btn-service">Solicitar Orçamento</a>
-        </div>
-
-        <div class="service-card" data-aos="fade-up" data-aos-delay="500">
-          <div class="service-icon-wrap">
-            <i class="fas fa-paint-roller"></i>
-          </div>
-          <h3>Revitalização & Renovação</h3>
-          <p>Restauramos plásticos, borrachas, farois e painéis desgastados, dando uma nova vida e aparência ao seu veículo.</p>
-          <ul class="service-list">
-            <li><i class="fas fa-check"></i> Revitalização de plásticos</li>
-            <li><i class="fas fa-check"></i> Restauração de faróis</li>
-            <li><i class="fas fa-check"></i> Recuperação de borrachas</li>
-            <li><i class="fas fa-check"></i> Limpeza de motor</li>
-          </ul>
-          <a href="#contato" class="btn btn-service">Solicitar Orçamento</a>
-        </div>
-
-      </div>
-    </div>
-  </section>
-
-  <!-- ===== DIFERENCIAIS ===== -->
-  <section class="diferenciais" id="diferenciais">
-    <div class="container">
-      <div class="section-header light" data-aos="fade-up">
-        <span class="section-tag">Por que nos escolher</span>
-        <h2 class="section-title">Nossos <span class="accent">Diferenciais</span></h2>
-        <p class="section-subtitle">Qualidade, cuidado e compromisso com cada cliente e cada veículo que passa por nossas mãos.</p>
-      </div>
-
-      <div class="diferenciais-grid">
-        <div class="diferencial-item" data-aos="fade-right" data-aos-delay="0">
-          <div class="diferencial-icon"><i class="fas fa-certificate"></i></div>
-          <div class="diferencial-content">
-            <h4>Profissionais Certificados</h4>
-            <p>Nossa equipe possui treinamento especializado e certificações reconhecidas no mercado automotivo.</p>
-          </div>
-        </div>
-        <div class="diferencial-item" data-aos="fade-right" data-aos-delay="100">
-          <div class="diferencial-icon"><i class="fas fa-flask"></i></div>
-          <div class="diferencial-content">
-            <h4>Produtos Premium</h4>
-            <p>Utilizamos apenas produtos de alta qualidade, importados e aprovados para proteger seu veículo.</p>
-          </div>
-        </div>
-        <div class="diferencial-item" data-aos="fade-right" data-aos-delay="200">
-          <div class="diferencial-icon"><i class="fas fa-clock"></i></div>
-          <div class="diferencial-content">
-            <h4>Pontualidade Garantida</h4>
-            <p>Respeitamos seu tempo. Agendamos com prazo definido e entregamos no horário combinado.</p>
-          </div>
-        </div>
-        <div class="diferencial-item" data-aos="fade-left" data-aos-delay="0">
-          <div class="diferencial-icon"><i class="fas fa-leaf"></i></div>
-          <div class="diferencial-content">
-            <h4>Eco-Friendly</h4>
-            <p>Utilizamos técnicas e produtos sustentáveis, reduzindo o consumo de água sem abrir mão da qualidade.</p>
-          </div>
-        </div>
-        <div class="diferencial-item" data-aos="fade-left" data-aos-delay="100">
-          <div class="diferencial-icon"><i class="fas fa-thumbs-up"></i></div>
-          <div class="diferencial-content">
-            <h4>Satisfação Garantida</h4>
-            <p>Se não ficou 100% satisfeito, refazemos o serviço. Sua satisfação é nossa maior conquista.</p>
-          </div>
-        </div>
-        <div class="diferencial-item" data-aos="fade-left" data-aos-delay="200">
-          <div class="diferencial-icon"><i class="fas fa-map-marker-alt"></i></div>
-          <div class="diferencial-content">
-            <h4>Atendemos no Local</h4>
-            <p>Vamos até você! Serviços com agendamento na sua casa, empresa ou condomínio.</p>
-          </div>
+          <i class="fas fa-shield-alt"></i>
+          <h3>Vitrificação</h3>
+          <p>Proteção de alta durabilidade contra agentes externos e raios UV.</p>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- ===== PLANOS E PREÇOS ===== -->
-  <section class="plans" id="planos">
-    <div class="container">
-      <div class="section-header" data-aos="fade-up">
-        <span class="section-tag">Investimento</span>
-        <h2 class="section-title">Planos e <span class="accent">Preços</span></h2>
-        <p class="section-subtitle">Escolha o plano ideal para o seu veículo. Todos incluem garantia de qualidade.</p>
-      </div>
-
-      <div class="plans-grid">
-
-        <div class="plan-card" data-aos="fade-up" data-aos-delay="0">
-          <div class="plan-header">
-            <span class="plan-icon"><i class="fas fa-car"></i></span>
-            <h3 class="plan-name">Básico</h3>
-            <div class="plan-price">
-              <span class="plan-price-from">a partir de</span>
-              <span class="plan-price-value">R$ 49</span>
-            </div>
-          </div>
-          <ul class="plan-features">
-            <li class="included"><i class="fas fa-check-circle"></i> Lavagem externa completa</li>
-            <li class="included"><i class="fas fa-check-circle"></i> Aspiração interna</li>
-            <li class="included"><i class="fas fa-check-circle"></i> Limpeza dos vidros</li>
-            <li class="included"><i class="fas fa-check-circle"></i> Pretinho de pneus</li>
-            <li class="not-included"><i class="fas fa-times-circle"></i> Polimento</li>
-            <li class="not-included"><i class="fas fa-times-circle"></i> Cera protetora</li>
-          </ul>
-          <a href="#contato" class="btn btn-outline w-full">Escolher Plano</a>
-        </div>
-
-        <div class="plan-card popular" data-aos="fade-up" data-aos-delay="100">
-          <div class="plan-popular-badge"><i class="fas fa-crown"></i> Mais Popular</div>
-          <div class="plan-header">
-            <span class="plan-icon"><i class="fas fa-car-side"></i></span>
-            <h3 class="plan-name">Premium</h3>
-            <div class="plan-price">
-              <span class="plan-price-from">a partir de</span>
-              <span class="plan-price-value">R$ 149</span>
-            </div>
-          </div>
-          <ul class="plan-features">
-            <li class="included"><i class="fas fa-check-circle"></i> Tudo do Básico</li>
-            <li class="included"><i class="fas fa-check-circle"></i> Polimento simples</li>
-            <li class="included"><i class="fas fa-check-circle"></i> Cera protetora</li>
-            <li class="included"><i class="fas fa-check-circle"></i> Limpeza do motor</li>
-            <li class="included"><i class="fas fa-check-circle"></i> Perfume automotivo</li>
-            <li class="not-included"><i class="fas fa-times-circle"></i> Cristalização</li>
-          </ul>
-          <a href="#contato" class="btn btn-primary w-full">Escolher Plano</a>
-        </div>
-
-        <div class="plan-card" data-aos="fade-up" data-aos-delay="200">
-          <div class="plan-header">
-            <span class="plan-icon"><i class="fas fa-gem"></i></span>
-            <h3 class="plan-name">Diamond</h3>
-            <div class="plan-price">
-              <span class="plan-price-from">a partir de</span>
-              <span class="plan-price-value">R$ 349</span>
-            </div>
-          </div>
-          <ul class="plan-features">
-            <li class="included"><i class="fas fa-check-circle"></i> Tudo do Premium</li>
-            <li class="included"><i class="fas fa-check-circle"></i> Polimento completo 3 etapas</li>
-            <li class="included"><i class="fas fa-check-circle"></i> Cristalização de pintura</li>
-            <li class="included"><i class="fas fa-check-circle"></i> Higienização interna completa</li>
-            <li class="included"><i class="fas fa-check-circle"></i> Revitalização de plásticos</li>
-            <li class="included"><i class="fas fa-check-circle"></i> Restauração de faróis</li>
-          </ul>
-          <a href="#contato" class="btn btn-outline w-full">Escolher Plano</a>
-        </div>
-
-      </div>
-
-      <p class="plans-note" data-aos="fade-up">* Preços podem variar conforme o tamanho e estado do veículo. Solicite uma avaliação gratuita!</p>
-    </div>
-  </section>
-
-  <!-- ===== GALERIA ANTES E DEPOIS ===== -->
-  <section class="gallery" id="galeria">
-    <div class="container">
-      <div class="section-header" data-aos="fade-up">
-        <span class="section-tag">Transformações Reais</span>
-        <h2 class="section-title">Antes e <span class="accent">Depois</span></h2>
-        <p class="section-subtitle">Veja resultados reais dos nossos serviços. A diferença é visível!</p>
-      </div>
-
-      <div class="gallery-grid">
-        <div class="gallery-item" data-aos="zoom-in" data-aos-delay="0">
-          <div class="before-after-container">
-            <div class="before-label">Antes</div>
-            <div class="after-label">Depois</div>
-            <div class="before-after-visual polimento">
-              <div class="ba-left">
-                <i class="fas fa-times-circle"></i>
-                <span>Pintura opaca com riscos</span>
-              </div>
-              <div class="ba-divider"><span><i class="fas fa-arrow-right"></i></span></div>
-              <div class="ba-right">
-                <i class="fas fa-star"></i>
-                <span>Brilho espelhado restaurado</span>
-              </div>
-            </div>
-            <div class="gallery-item-label">Polimento Completo</div>
-          </div>
-        </div>
-
-        <div class="gallery-item" data-aos="zoom-in" data-aos-delay="100">
-          <div class="before-after-container">
-            <div class="before-label">Antes</div>
-            <div class="after-label">Depois</div>
-            <div class="before-after-visual higienizacao">
-              <div class="ba-left">
-                <i class="fas fa-times-circle"></i>
-                <span>Interior sujo e com mau cheiro</span>
-              </div>
-              <div class="ba-divider"><span><i class="fas fa-arrow-right"></i></span></div>
-              <div class="ba-right">
-                <i class="fas fa-star"></i>
-                <span>Interior limpo e perfumado</span>
-              </div>
-            </div>
-            <div class="gallery-item-label">Higienização Interna</div>
-          </div>
-        </div>
-
-        <div class="gallery-item" data-aos="zoom-in" data-aos-delay="200">
-          <div class="before-after-container">
-            <div class="before-label">Antes</div>
-            <div class="after-label">Depois</div>
-            <div class="before-after-visual farois">
-              <div class="ba-left">
-                <i class="fas fa-times-circle"></i>
-                <span>Faróis amarelados e opacos</span>
-              </div>
-              <div class="ba-divider"><span><i class="fas fa-arrow-right"></i></span></div>
-              <div class="ba-right">
-                <i class="fas fa-star"></i>
-                <span>Faróis cristalinos e novos</span>
-              </div>
-            </div>
-            <div class="gallery-item-label">Restauração de Faróis</div>
-          </div>
-        </div>
-
-        <div class="gallery-item" data-aos="zoom-in" data-aos-delay="300">
-          <div class="before-after-container">
-            <div class="before-label">Antes</div>
-            <div class="after-label">Depois</div>
-            <div class="before-after-visual cristalizacao">
-              <div class="ba-left">
-                <i class="fas fa-times-circle"></i>
-                <span>Pintura sem proteção</span>
-              </div>
-              <div class="ba-divider"><span><i class="fas fa-arrow-right"></i></span></div>
-              <div class="ba-right">
-                <i class="fas fa-star"></i>
-                <span>Protegida e hidrofóbica</span>
-              </div>
-            </div>
-            <div class="gallery-item-label">Cristalização</div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ===== DEPOIMENTOS ===== -->
-  <section class="testimonials" id="depoimentos">
-    <div class="container">
-      <div class="section-header light" data-aos="fade-up">
-        <span class="section-tag">O que dizem</span>
-        <h2 class="section-title">Depoimentos dos <span class="accent">Clientes</span></h2>
-        <p class="section-subtitle">A satisfação dos nossos clientes é o nosso melhor cartão de visitas.</p>
-      </div>
-
-      <div class="testimonials-slider" id="testimonialsSlider">
-        <div class="testimonials-track" id="testimonialsTrack">
-
-          <div class="testimonial-card">
-            <div class="testimonial-stars">
-              <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
-            </div>
-            <p class="testimonial-text">"Meu carro estava com a pintura muito opaca e cheia de arranhões. Após o polimento na AutoShine, ficou igual a novo! Serviço impecável e equipe super atenciosa."</p>
-            <div class="testimonial-author">
-              <div class="author-avatar"><i class="fas fa-user-circle"></i></div>
-              <div class="author-info">
-                <strong>Carlos Eduardo</strong>
-                <span>Honda Civic 2019</span>
-              </div>
-            </div>
-          </div>
-
-          <div class="testimonial-card">
-            <div class="testimonial-stars">
-              <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
-            </div>
-            <p class="testimonial-text">"Fiz a higienização completa do meu SUV e o resultado foi incrível! Saiu todo o cheiro de cachorro que estava impregnado. Recomendo muito a AutoShine!"</p>
-            <div class="testimonial-author">
-              <div class="author-avatar"><i class="fas fa-user-circle"></i></div>
-              <div class="author-info">
-                <strong>Ana Paula Silva</strong>
-                <span>Jeep Compass 2021</span>
-              </div>
-            </div>
-          </div>
-
-          <div class="testimonial-card">
-            <div class="testimonial-stars">
-              <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
-            </div>
-            <p class="testimonial-text">"Fiz a vitrificação cerâmica e meu carro parece que acabou de sair da concessionária. A água escorrega sozinha! Vale cada centavo investido."</p>
-            <div class="testimonial-author">
-              <div class="author-avatar"><i class="fas fa-user-circle"></i></div>
-              <div class="author-info">
-                <strong>Ricardo Mendes</strong>
-                <span>BMW 320i 2022</span>
-              </div>
-            </div>
-          </div>
-
-          <div class="testimonial-card">
-            <div class="testimonial-stars">
-              <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
-            </div>
-            <p class="testimonial-text">"Atendimento excelente desde o primeiro contato. Explicaram tudo direitinho e entregaram o carro no prazo prometido. Com certeza voltarei!"</p>
-            <div class="testimonial-author">
-              <div class="author-avatar"><i class="fas fa-user-circle"></i></div>
-              <div class="author-info">
-                <strong>Fernanda Costa</strong>
-                <span>Volkswagen T-Cross 2020</span>
-              </div>
-            </div>
-          </div>
-
-          <div class="testimonial-card">
-            <div class="testimonial-stars">
-              <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
-            </div>
-            <p class="testimonial-text">"Os faróis do meu carro estavam completamente amarelados. Trouxe na AutoShine e voltaram a ficar como novos. Serviço rápido e resultado impressionante!"</p>
-            <div class="testimonial-author">
-              <div class="author-avatar"><i class="fas fa-user-circle"></i></div>
-              <div class="author-info">
-                <strong>Marcos Oliveira</strong>
-                <span>Toyota Hilux 2018</span>
-              </div>
-            </div>
-          </div>
-
-        </div>
-      </div>
-
-      <div class="slider-controls">
-        <button class="slider-btn" id="prevBtn" aria-label="Anterior"><i class="fas fa-chevron-left"></i></button>
-        <div class="slider-dots" id="sliderDots"></div>
-        <button class="slider-btn" id="nextBtn" aria-label="Próximo"><i class="fas fa-chevron-right"></i></button>
-      </div>
-
-    </div>
-  </section>
-
-  <!-- ===== CONTATO / ORÇAMENTO ===== -->
   <section class="contact" id="contato">
     <div class="container">
       <div class="section-header" data-aos="fade-up">
-        <span class="section-tag">Fale conosco</span>
-        <h2 class="section-title">Agende seu <span class="accent">Serviço</span></h2>
-        <p class="section-subtitle">Solicite um orçamento gratuito e sem compromisso. Respondemos em até 2 horas!</p>
+        <h2 class="section-title">Fale com a <span class="accent">The Five</span></h2>
+        <p class="section-subtitle">Atendimento especializado em Santo André e região.</p>
       </div>
 
       <div class="contact-grid">
-
         <div class="contact-info" data-aos="fade-right">
           <div class="contact-info-item">
-            <div class="contact-info-icon"><i class="fas fa-map-marker-alt"></i></div>
+            <i class="fas fa-map-marker-alt"></i>
             <div>
-              <strong>Endereço</strong>
-              <p>Rua das Flores, 1234 - Centro<br />São Paulo - SP, CEP 01310-100</p>
+              <strong>Localização</strong>
+              <p>Santo André - São Paulo (Atendimento Local)</p>
             </div>
           </div>
           <div class="contact-info-item">
-            <div class="contact-info-icon"><i class="fas fa-phone-alt"></i></div>
+            <i class="fas fa-phone-alt"></i>
             <div>
-              <strong>Telefone / WhatsApp</strong>
-              <p><a href="tel:+5511999998888">(11) 99999-8888</a></p>
+              <strong>WhatsApp</strong>
+              <p>(11) 99999-8888</p>
             </div>
-          </div>
-          <div class="contact-info-item">
-            <div class="contact-info-icon"><i class="fas fa-envelope"></i></div>
-            <div>
-              <strong>E-mail</strong>
-              <p><a href="mailto:contato@autoshine.com.br">contato@autoshine.com.br</a></p>
-            </div>
-          </div>
-          <div class="contact-info-item">
-            <div class="contact-info-icon"><i class="fas fa-clock"></i></div>
-            <div>
-              <strong>Horário de Atendimento</strong>
-              <p>Seg a Sex: 8h às 18h<br />Sábado: 8h às 14h</p>
-            </div>
-          </div>
-
-          <div class="contact-social">
-            <a href="#" class="social-link whatsapp" aria-label="WhatsApp">
-              <i class="fab fa-whatsapp"></i> WhatsApp
-            </a>
-            <a href="#" class="social-link instagram" aria-label="Instagram">
-              <i class="fab fa-instagram"></i> Instagram
-            </a>
-            <a href="#" class="social-link facebook" aria-label="Facebook">
-              <i class="fab fa-facebook"></i> Facebook
-            </a>
           </div>
         </div>
 
         <div class="contact-form-wrap" data-aos="fade-left">
-          <form class="contact-form" id="contactForm" novalidate>
-            <div class="form-group">
-              <label for="name">Seu Nome *</label>
-              <input type="text" id="name" name="name" placeholder="João da Silva" required />
-              <span class="form-error" id="nameError"></span>
-            </div>
-            <div class="form-group">
-              <label for="phone">WhatsApp / Telefone *</label>
-              <input type="tel" id="phone" name="phone" placeholder="(11) 99999-9999" required />
-              <span class="form-error" id="phoneError"></span>
-            </div>
-            <div class="form-group">
-              <label for="email">E-mail</label>
-              <input type="email" id="email" name="email" placeholder="seu@email.com" />
-            </div>
-            <div class="form-group">
-              <label for="vehicle">Veículo *</label>
-              <input type="text" id="vehicle" name="vehicle" placeholder="Ex: Honda Civic 2020 Prata" required />
-              <span class="form-error" id="vehicleError"></span>
-            </div>
-            <div class="form-group">
-              <label for="service">Serviço de Interesse *</label>
-              <select id="service" name="service" required>
-                <option value="">Selecione um serviço...</option>
-                <option value="lavagem">Lavagem Completa</option>
-                <option value="polimento">Polimento & Lustro</option>
-                <option value="cristalizacao">Cristalização</option>
-                <option value="vitrificacao">Vitrificação de Pintura</option>
-                <option value="higienizacao">Higienização Interna</option>
-                <option value="revitalizacao">Revitalização & Renovação</option>
-                <option value="pacote">Pacote Completo (Diamond)</option>
-                <option value="outros">Outros / Não tenho certeza</option>
-              </select>
-              <span class="form-error" id="serviceError"></span>
-            </div>
-            <div class="form-group">
-              <label for="message">Mensagem / Observações</label>
-              <textarea id="message" name="message" rows="4" placeholder="Descreva o estado do seu veículo ou dúvidas..."></textarea>
-            </div>
-            <button type="submit" class="btn btn-primary w-full btn-lg" id="submitBtn">
-              <i class="fas fa-paper-plane"></i> Enviar Solicitação
-            </button>
-          </form>
-
-          <div class="form-success" id="formSuccess" style="display:none;">
-            <div class="success-icon"><i class="fas fa-check-circle"></i></div>
-            <h3>Solicitação Enviada!</h3>
-            <p>Recebemos seu pedido e entraremos em contato em até 2 horas. Obrigado!</p>
-            <a href="#" class="btn btn-primary" onclick="resetForm(event)">Enviar Outra Solicitação</a>
-          </div>
+          <a href="https://wa.me/5511999998888" class="btn btn-primary w-full btn-lg" style="display: flex; align-items: center; justify-content: center; height: 100px; font-size: 1.5rem;">
+            <i class="fab fa-whatsapp" style="margin-right: 15px;"></i> Chamar no WhatsApp Agora
+          </a>
         </div>
-
       </div>
     </div>
   </section>
 
-  <!-- ===== MAPA / LOCALIZAÇÃO ===== -->
-  <div class="map-section">
-    <div class="map-placeholder">
-      <i class="fas fa-map-marked-alt"></i>
-      <h3>Nossa Localização</h3>
-      <p>Rua das Flores, 1234 - Centro, São Paulo - SP</p>
-      <a href="https://maps.google.com" target="_blank" class="btn btn-outline">
-        <i class="fas fa-directions"></i> Como Chegar
-      </a>
-    </div>
-  </div>
-
-  <!-- ===== FOOTER ===== -->
   <footer class="footer">
-    <div class="container footer-grid">
-      <div class="footer-brand">
-        <div class="nav-logo">
-          <i class="fas fa-car-wash logo-icon"></i>
-          <span class="logo-text">Auto<span class="logo-accent">Shine</span></span>
-        </div>
-        <p>Especialistas em lavagem, recuperação e renovação de carros. Seu veículo merece o melhor cuidado.</p>
-        <div class="footer-social">
-          <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
-          <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
-          <a href="#" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
-          <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
-        </div>
+    <div class="container">
+      <div class="nav-logo" style="justify-content: center; margin-bottom: 20px;">
+        <i class="fas fa-car-wash logo-icon"></i>
+        <span class="logo-text">The Five<span class="logo-accent"> Estetic Car</span></span>
       </div>
-
-      <div class="footer-links">
-        <h4>Serviços</h4>
-        <ul>
-          <li><a href="#servicos">Lavagem Completa</a></li>
-          <li><a href="#servicos">Polimento & Lustro</a></li>
-          <li><a href="#servicos">Cristalização</a></li>
-          <li><a href="#servicos">Vitrificação</a></li>
-          <li><a href="#servicos">Higienização Interna</a></li>
-          <li><a href="#servicos">Revitalização</a></li>
-        </ul>
-      </div>
-
-      <div class="footer-links">
-        <h4>Links Rápidos</h4>
-        <ul>
-          <li><a href="#inicio">Início</a></li>
-          <li><a href="#diferenciais">Diferenciais</a></li>
-          <li><a href="#planos">Planos e Preços</a></li>
-          <li><a href="#galeria">Antes e Depois</a></li>
-          <li><a href="#depoimentos">Depoimentos</a></li>
-          <li><a href="#contato">Contato</a></li>
-        </ul>
-      </div>
-
-      <div class="footer-contact">
-        <h4>Contato</h4>
-        <p><i class="fas fa-phone-alt"></i> (11) 99999-8888</p>
-        <p><i class="fas fa-envelope"></i> contato@autoshine.com.br</p>
-        <p><i class="fas fa-map-marker-alt"></i> Rua das Flores, 1234, SP</p>
-        <p><i class="fas fa-clock"></i> Seg-Sex: 8h–18h | Sáb: 8h–14h</p>
-      </div>
-    </div>
-
-    <div class="footer-bottom">
-      <div class="container">
-        <p>© 2025 The Five Estetic Car. Todos os direitos reservados.</p>
-        <p>Desenvolvido com <i class="fas fa-heart" style="color:#e74c3c;"></i> para seu carro</p>
-      </div>
+      <p>© 2026 The Five Estetic Car - Santo André/SP. Todos os direitos reservados.</p>
     </div>
   </footer>
 
-  <!-- ===== FLOATING WHATSAPP ===== -->
-  <a href="https://wa.me/5511999998888?text=Olá!%20Gostaria%20de%20solicitar%20um%20orçamento%20para%20meu%20veículo." 
-     class="float-whatsapp" target="_blank" aria-label="WhatsApp">
+  <a href="https://wa.me/5511999998888" class="float-whatsapp" target="_blank">
     <i class="fab fa-whatsapp"></i>
-    <span class="float-tooltip">Fale no WhatsApp!</span>
   </a>
 
-  <!-- ===== SCROLL TO TOP ===== -->
-  <button class="scroll-top" id="scrollTop" aria-label="Voltar ao topo">
-    <i class="fas fa-chevron-up"></i>
-  </button>
-
-  <!-- AOS Script -->
   <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
-
-  <!-- Custom JS -->
-  <script src="/main.js"></script>
+  <script src="main.js"></script>
+  <script>AOS.init();</script>
 
 </body>
 </html>
